@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Odin;
+    src: url(../fonts/Norse-Bold.otf);
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+:link, :visited {
+    color: white;
+}
+
+#side-container {
+    display: flex;
+    flex-direction: column;
+    background-image: url("/images/yujin-seo-eULPThl7N7A-unsplash.jpg");
+    width: 40%;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+#form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#side-logo img {
+    width: 100px;
+}
+
+#side-logo {
+    margin-top: 20vh;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    font-family: Odin;
+    font-size: 100px;
+    height: 150px;
+    width: 100%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#side-container>p {
+    align-self: center;
+    color: white;
+}
