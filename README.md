@@ -1,4 +1,4 @@
 # Basic Sign-Up Form
 
 # Credits
-Image credit: https://unsplash.com/@haliewestphoto
+Image credit: Yujin Seo, https://unsplash.com/@offshoot
