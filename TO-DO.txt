@@ -1,0 +1,2 @@
+1. Use JS to display error messages below their input field.
+2. Implement comparison between password and confirm field.
