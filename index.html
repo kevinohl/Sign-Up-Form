@@ -21,15 +21,55 @@
     </div>
 
     <div id="form-container">
-        <p>This is a placeholder text. This is still a placeholder text. Even this is still a placeholder text.</p>
+        <div id="form-header">
+            <h2>
+                This is a placeholder text. This is still a placeholder text. <br>Even this is still a placeholder text.
+            </h2>
+            <h2>Placeholder.</h2>
+        </div>
 
-        <form action="" method="post">
-            <label for="first_name">First Name</label>
-            <input type="text" name="first_name" id="first_name">
-        </form>
+        <div id="sign-up-form">
+            <h3>
+                This is a heading.
+            </h3>
+            <form action="" method="post" id="registration-form">
+                <div class="form-row">
+                    <div class="form-element">
+                        <label for="first_name">First Name</label>
+                        <input type="text" name="first_name" id="first_name" required>
+                    </div>
+                    <div class="form-element">
+                        <label for="last_name">Last Name</label>
+                        <input type="text" name="last_name" id="last_name" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-element">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="form-element">
+                        <label for="phone_number">Phone Number</label>
+                        <input type="tel" name="phone_number" id="phone_number" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-element">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" class="error" required minlength="6">
+                    </div>
+                    <div class="form-element">
+                        <label for="password_confirm">Confirm Password</label>
+                        <input type="password" name="password_confirm" id="password_confirm" class="error" required
+                            minlength="6">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div id="button-container">
+            <input type="submit" form="registration-form" value="Create Account">
+        </div>
     </div>
-
-
 </body>
 
 </html>
